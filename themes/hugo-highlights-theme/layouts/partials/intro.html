@@ -1,0 +1,9 @@
+{{ "<!-- intro -->" | safeHTML }}
+  <section id="intro" class="main special">
+    <div class="container">
+      <div class="content">
+        <p>{{ with .Site.Params.intro.description }}{{ . | markdownify }}{{ end }}</p>
+      </div>
+      <a href="#about" class="goto-next scrolly">{{ with .Site.Params.about.buttonText }}{{ . | markdownify }}{{ end }}</a>
+    </div>
+  </section>

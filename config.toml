@@ -1,0 +1,221 @@
+# Site settings
+baseurl = ""
+languageCode = "pl"
+title = "Poukładane"
+theme = "hugo-highlights-theme"
+
+relativeurls = true
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = ""
+
+[params]
+
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesom's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engings feel free to add a few informations.
+  # This lines will be inserted as meta tags.
+  name = "Sylwia Ćwiek-Górska"
+  description = "Your Description"
+
+  # For a static site it's not possible to provide a contact form. The contact form uses
+  # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email
+  # Visitors can send up to a 1000 emails each month
+  #
+  # How to setup formspree
+  #
+  # - set your email address under 'email' below
+  # - upload the generated site to your server
+  # - send a dummy email to yourself to confirm your account
+  # - click the confirmation link in the email from www.formspree.io
+  # - That's all. Enjoy mailing!
+  email = "sylwia.cwiek.gorska@gmail.com"
+
+  # Hero Section
+  [params.hero]
+    title = "Poukładane"
+    description = "Pracownia psychologiczna"
+    buttonText = "Dowiedz się więcej"
+
+  # intro section
+  [params.intro]
+    enable = true
+    description = """Zmiany towarzyszą nam na różnych etapach naszego życia.
+      <br/>
+      Na różnych poziomach życia mamy potrzebę ładu.
+      Ładu na biurku, przy którym na co dzień pracujemy.
+      Ładu w szafie, torebce, samochodzie.
+      Układamy ubrania, poduszkę przed snem, układamy sobie relacje w pracy, z bliskimi, w domu.
+      <br/>
+      W końcu potrzebujemy ładu w głowie, wiedzieć w którym kierunku się zmierza,
+      by było to bardziej nasze, nieprzypadkowe.
+      Poukładane."""
+
+  # about section
+  [params.about]
+    enable = true
+    title = "O mnie"
+    description = """Pracuję jako psycholog od 2009 roku.
+      Mam doświadczenie pracy z osobami dotkniętymi szeroko rozumianą stratą
+      (utratą pracy, zdrowia, żałobą po bliskiej osobie) i osobami dokonującymi zmian w swoim życiu.
+      Ci, którzy trafiają do mnie, mogą bez obaw przed oceną mówić o swoich uczuciach,
+      działaniach, dzielić się swoimi myślami.
+      <br/>
+      <br/>
+      Wierzę, że nie ma uniwersalnych rozwiązań.
+      Ten sam problem dla dwóch różnych osób może stanowić inne wyzwanie.
+      W inny sposób też może być przez nie, tak samo skutecznie, rozwiązany.
+      Wierzę, że osoba, która przychodzi po wsparcie, jest najlepszym ekspertem od swojego życia,
+      a największe zmiany dokonują się poza gabinetem."""
+    buttonText = "Dalej"
+
+  [params.about2]
+    enable = true
+    # description = """<br/>
+    #   Doświadczenie zdobywałam m.in. w
+    #   Domu Hospicyjnym im. św. Józefa w Sopocie,
+    #   Miejskim Ośrodu Pomocy Rodzinie w Gdańsku
+    #   i Stowarzyszeniu 'Światło i Cienie'"""
+    description = """<br/>
+      Moje doświadczenie zawodowe:
+      <br/>
+      • Dom Hospicyjny im. św. Józefa w Sopocie
+      <br/>
+      • Miejski Ośrodek Pomocy Rodzinie w Gdańsku
+      <br/>
+      • Stowarzyszenie 'Światło i Cienie'"""
+    buttonText = "Dalej"
+    # the picture is storead at static/images/
+    picture = "header.jpg"
+
+  # skill section
+  [params.skill_list]
+    enable = true
+    title = "Metoda"
+    description = """Pracuję według założeń Terapii Skoncentrowanej na Rozwiązaniach.
+      Jednym z nich jest to, że człowiek posiada zasoby, które pozwalają mu
+      rozwiązać nurtujące go zagadnienie.
+      To on, przychodząc do psychologa, ustala cel i sposób realizacji tego, co chce osiągnąć.
+      To on wie, jaka droga jest dla niego najlepsza.
+      <br/>
+      <br/>
+      Zadaniem terapeuty jest pomoc w tworzeniu celu i odnajdowaniu w człowieku zasobów,
+      które ułatwią mu jego realizację.
+      Wspiera we wprowadzaniu w życie skutecznych rozwiązań.
+      <br/>
+      <br/>
+      Cechą charakterystyczną Terapii Skoncentrowanej na Rozwiązaniach jest krótkoterminowość.
+      W praktyce oznacza to, że sesje mają mieć charakter zwięzły,
+      a terapia ma sprowadzać się do najmniejszej możliwej liczby sesji,
+      potrzebnych aby osiągnąć zamierzony przez klienta cel."""
+    buttonText = "Dalej"
+    # the picture is storead at static/images/
+    # picture = "pic02.jpg"
+
+    # [[params.skills]]
+    #   icon = "fa-camera-retro"
+    #   title = "Magna Etiam"
+
+    # [[params.skills]]
+    #   icon = "fa-pencil"
+    #   title = "Lorem Ipsum"
+
+    # [[params.skills]]
+    #   icon = "fa-code"
+    #   title = "Nulla Tempus"
+
+    # [[params.skills]]
+    #   icon = "fa-coffee"
+    #   title = "Sed Feugiat"
+
+  [params.offer]
+    enable = true
+    title = "Cennik"
+    description = """Konsultacje psychologiczne • 100 zł
+      <br/>
+      Terapia indywidualna 90 min • 120 zł
+      <br/>
+      Terapia indywidualna 50 min • 80 zł
+      <br/>
+      Sesja rozwojowa • 100 zł"""
+
+  # infos section
+  [params.infos]
+    enable = true
+    title = "Kontakt"
+    description = """<strong>
+      POUKŁADANE. PRACOWNIA PSYCHOLOGICZNA
+      <br/>
+      Sylwia Ćwiek-Górska
+      </strong>"""
+    email = "sylwia.cwiek.gorska@gmail.com"
+    phone = "+48 601 132 616"
+    facebook = "https://facebook.com/poukladanepracowniapsychologiczna/"
+    # the picture is storead at static/images/
+    # picture = "pic03.jpg"
+
+  # footer section
+  # this section includes
+  #
+  # - the contact form
+  # - social icons
+  #
+  # It's possible to disable the whole footer or disable only social icons or contact form
+
+  [params.footer]
+    enable = true
+    title = "Get in Touch"
+
+    # contact form
+    [params.footer.contact]
+      enable = false
+
+    [params.footer.contact.form]
+      name = "Name"
+      email = "Your Email"
+      message = "Your Message"
+      buttonText = "send message"
+
+    # social icons
+    [params.footer.social_list]
+      enable = true
+
+      [[params.footer.social]]
+        title = "Twitter"
+        icon = "fa-twitter"
+        link = "#"
+
+      [[params.footer.social]]
+        title = "Facebook"
+        icon = "fa-facebook"
+        link = "https://facebook.com"
+
+      # [[params.footer.social]]
+      #   title = "Instagramm"
+      #   icon = "fa-instagram"
+      #   link = "#"
+
+      # [[params.footer.social]]
+      #   title = "Dribbble"
+      #   icon = "fa-dribbble"
+      #   link = "#"
+
+      [[params.footer.social]]
+        title = "Email"
+        icon = "fa-envelope"
+        link = "mailto:sylwia.cwiek.gorska@gmail.com"
+
+    # copyright
+    # [params.footer.copyright.notice]
+
+      [[params.footer.copyright.notice]]
+        text = "© Poukładane"
+
+      [[params.footer.copyright.notice]]
+        text = "Design: [HTML5UP](//html5up.net)"
+
+      [[params.footer.copyright.notice]]
+        text = "Zdjęcia: [Unsplash](//unsplash.com/)"
