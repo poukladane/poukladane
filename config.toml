@@ -32,7 +32,7 @@ googleAnalytics = ""
   # - send a dummy email to yourself to confirm your account
   # - click the confirmation link in the email from www.formspree.io
   # - That's all. Enjoy mailing!
-  email = "sylwia.cwiek.gorska@gmail.com"
+  email = "pracowniapoukladane@gmail.com"
 
   # Hero Section
   [params.hero]
@@ -50,7 +50,7 @@ googleAnalytics = ""
       Ładu w szafie, torebce, samochodzie.
       Układamy ubrania, poduszkę przed snem, układamy sobie relacje w pracy, z bliskimi, w domu.
       <br/>
-      W końcu potrzebujemy ładu w głowie, wiedzieć w którym kierunku się zmierza,
+      W końcu potrzebujemy ładu w głowie, aby wiedzieć, w którym kierunku się zmierza,
       by było to bardziej nasze, nieprzypadkowe.
       Poukładane."""
 
@@ -74,11 +74,6 @@ googleAnalytics = ""
 
   [params.about2]
     enable = true
-    # description = """<br/>
-    #   Doświadczenie zdobywałam m.in. w
-    #   Domu Hospicyjnym im. św. Józefa w Sopocie,
-    #   Miejskim Ośrodu Pomocy Rodzinie w Gdańsku
-    #   i Stowarzyszeniu 'Światło i Cienie'"""
     description = """<br/>
       Moje doświadczenie zawodowe:
       <br/>
@@ -96,7 +91,7 @@ googleAnalytics = ""
     enable = true
     title = "Metoda"
     description = """Pracuję według założeń Terapii Skoncentrowanej na Rozwiązaniach.
-      Jednym z nich jest to, że człowiek posiada zasoby, które pozwalają mu
+      Jednym z nich jest to, że każdy człowiek posiada zasoby, które pozwalają mu
       rozwiązać nurtujące go zagadnienie.
       To on, przychodząc do psychologa, ustala cel i sposób realizacji tego, co chce osiągnąć.
       To on wie, jaka droga jest dla niego najlepsza.
@@ -104,7 +99,7 @@ googleAnalytics = ""
       <br/>
       Zadaniem terapeuty jest pomoc w tworzeniu celu i odnajdowaniu w człowieku zasobów,
       które ułatwią mu jego realizację.
-      Wspiera we wprowadzaniu w życie skutecznych rozwiązań.
+      Terapeuta wspiera we wprowadzaniu w życie skutecznych rozwiązań.
       <br/>
       <br/>
       Cechą charakterystyczną Terapii Skoncentrowanej na Rozwiązaniach jest krótkoterminowość.
@@ -136,9 +131,12 @@ googleAnalytics = ""
     title = "Cennik"
     description = """Konsultacje psychologiczne • 100 zł
       <br/>
-      Terapia indywidualna 90 min • 120 zł
       <br/>
-      Terapia indywidualna 50 min • 80 zł
+      Terapia indywidualna 90 min</br>(pierwsza sesja) • 100 zł
+      <br/>
+      <br/>
+      Terapia indywidualna 50 min</br>(druga i kolejne sesje) • 80 zł
+      <br/>
       <br/>
       Sesja rozwojowa • 100 zł"""
 
@@ -150,8 +148,14 @@ googleAnalytics = ""
       POUKŁADANE. PRACOWNIA PSYCHOLOGICZNA
       <br/>
       Sylwia Ćwiek-Górska
-      </strong>"""
-    email = "sylwia.cwiek.gorska@gmail.com"
+      </strong>
+      <br/>
+      <br/>
+      ul. Miszewskiego 17 p. 305
+      <br/>
+      80-239 Gdańsk
+      """
+    email = "pracowniapoukladane@gmail.com"
     phone = "+48 601 132 616"
     facebook = "https://facebook.com/poukladanepracowniapsychologiczna/"
     # the picture is storead at static/images/
@@ -166,7 +170,7 @@ googleAnalytics = ""
   # It's possible to disable the whole footer or disable only social icons or contact form
 
   [params.footer]
-    enable = true
+    enable = false
     title = "Get in Touch"
 
     # contact form
@@ -191,7 +195,7 @@ googleAnalytics = ""
       [[params.footer.social]]
         title = "Facebook"
         icon = "fa-facebook"
-        link = "https://facebook.com"
+        link = "https://facebook.com/poukladanepracowniapsychologiczna"
 
       # [[params.footer.social]]
       #   title = "Instagramm"
@@ -206,7 +210,7 @@ googleAnalytics = ""
       [[params.footer.social]]
         title = "Email"
         icon = "fa-envelope"
-        link = "mailto:sylwia.cwiek.gorska@gmail.com"
+        link = "mailto:pracowniapoukladane@gmail.com"
 
     # copyright
     # [params.footer.copyright.notice]
