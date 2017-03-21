@@ -1,5 +1,25 @@
 @import url("font-awesome.min.css");
-@import url("//fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
+/* @import url("//fonts.googleapis.com/css?family=Raleway:400,400italic,700,800"); */
+
+@font-face {
+  font-family: "Raleway";
+  src: url('../fonts/Raleway-Regular.ttf');
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 700;
+  src: url('../fonts/Raleway-Bold.ttf');
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 800;
+  src: url('../fonts/Raleway-ExtraBold.ttf');
+}
+@font-face {
+  font-family: "Raleway";
+  font-style: italic;
+  src: url('../fonts/Raleway-Italic.ttf');
+}
 
 /*
 	Highlights by HTML5 UP
