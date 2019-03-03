@@ -129,16 +129,13 @@ googleAnalytics = ""
   [params.offer]
     enable = true
     title = "Cennik"
-    description = """Konsultacje psychologiczne • 120 zł
+    description = """Konsultacja psychologiczna 50 min</br>(pierwsze spotkanie) • 120 zł
       <br/>
       <br/>
-      Terapia indywidualna 90 min</br>(pierwsza sesja) • 100 zł
+      Spotkanie indywidualne 50 min</br>(po konsultacji) • 100 zł
       <br/>
       <br/>
-      Terapia indywidualna 50 min</br>(druga i kolejne sesje) • 80 zł
-      <br/>
-      <br/>
-      Sesja rozwojowa • 100 zł"""
+      Spotkanie dla par 90 min • 150 zł"""
 
   # infos section
   [params.infos]
