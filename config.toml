@@ -9,6 +9,9 @@ relativeurls = true
 # Enter your tracking code to enable Google analytics
 googleAnalytics = ""
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
 
   # You can use Markdown for urls [text](//domain.tld/source)
@@ -129,10 +132,10 @@ googleAnalytics = ""
   [params.offer]
     enable = true
     title = "Cennik"
-    description = """Konsultacja psychologiczna 50 min</br>(pierwsze spotkanie) • 120 zł
+    description = """Konsultacja psychologiczna 50 min<br/>(pierwsze spotkanie) • 150 zł
       <br/>
       <br/>
-      Spotkanie indywidualne 50 min</br>(po konsultacji) • 100 zł
+      Spotkanie indywidualne 50 min<br/>(po konsultacji) • 120 zł
       <br/>
       <br/>
       Spotkanie dla par 90 min • 150 zł"""
