@@ -135,10 +135,10 @@ unsafe = true
     description = """Konsultacja psychologiczna 50 min<br/>(pierwsze spotkanie) • 150 zł
       <br/>
       <br/>
-      Spotkanie indywidualne 50 min<br/>(po konsultacji) • 120 zł
+      Spotkanie indywidualne 50 min<br/>(po konsultacji) • 150 zł
       <br/>
       <br/>
-      Spotkanie dla par 90 min • 150 zł"""
+      Spotkanie dla par 90 min • 200 zł"""
 
   # infos section
   [params.infos]
