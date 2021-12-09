@@ -5,10 +5,6 @@
     <link>/</link>
     <description>Recent content on Poukładane</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pl</language>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>pl</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
