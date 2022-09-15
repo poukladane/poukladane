@@ -132,13 +132,10 @@ unsafe = true
   [params.offer]
     enable = true
     title = "Cennik"
-    description = """Konsultacja psychologiczna 50 min<br/>(pierwsze spotkanie) • 150 zł
+    description = """Konsultacja psychologiczna 50 min<br/>(pierwsze spotkanie) • 180 zł
       <br/>
       <br/>
-      Spotkanie indywidualne 50 min<br/>(po konsultacji) • 150 zł
-      <br/>
-      <br/>
-      Spotkanie dla par 90 min • 200 zł"""
+      Spotkanie indywidualne 50 min<br/>(po konsultacji) • 150 zł"""
 
   # infos section
   [params.infos]
@@ -151,9 +148,9 @@ unsafe = true
       </strong>
       <br/>
       <br/>
-      ul. Miszewskiego 17 p. 305
+      ul. Wassowskiego 6/1
       <br/>
-      80-239 Gdańsk
+      80-225 Gdańsk
       """
     email = "pracowniapoukladane@gmail.com"
     phone = "+48 603 132 616"
