@@ -54,31 +54,49 @@ unsafe = true
       Układamy ubrania, poduszkę przed snem, układamy sobie relacje w pracy, z bliskimi, w domu.
       <br/>
       W końcu potrzebujemy ładu w głowie, aby wiedzieć, w którym kierunku się zmierza,
-      by było to bardziej nasze, nieprzypadkowe.
-      Poukładane."""
+      by było to bardziej nasze, nieprzypadkowe, poukładane."""
 
   # about section
   [params.about]
     enable = true
     title = "O mnie"
-    description = """Pracuję jako psycholog od 2009 roku.
-      Mam doświadczenie pracy z osobami dotkniętymi szeroko rozumianą stratą
-      (utratą pracy, zdrowia, żałobą po bliskiej osobie) i osobami dokonującymi zmian w swoim życiu.
-      Ci, którzy trafiają do mnie, mogą bez obaw przed oceną mówić o swoich uczuciach,
-      działaniach, dzielić się swoimi myślami.
-      <br/>
-      <br/>
-      Wierzę, że nie ma uniwersalnych rozwiązań.
-      Ten sam problem dla dwóch różnych osób może stanowić inne wyzwanie.
-      W inny sposób też może być przez nie, tak samo skutecznie, rozwiązany.
-      Wierzę, że osoba, która przychodzi po wsparcie, jest najlepszym ekspertem od swojego życia,
-      a największe zmiany dokonują się poza gabinetem."""
+    description = """Jestem psychoterapeutką w procesie certyfikacji.
+    Pracuję integracyjnie, łącząc podejście ericksonowskie z myśleniem systemowym.
+    Należę do sekcji psychoterapii Polskiego Towarzystwa Psychologicznego
+    i Polskiego Towarzystwa Psychiatrycznego.
+    Poddaję swoją pracę regularnej superwizji u certyfikowanego superwizora w Polskim Instytucie Ericksonowskim.
+    <br/>
+    <br/>
+    Lubię pracować metaforą, opierać się na zasobach i budujących doświadczeniach osób,
+    które do mnie trafiają, przyglądać się przekazom rodzinnym, które noszą.
+    Mam doświadczenie pracy z osobami pragnącymi dokonać zmian w swoim życiu,
+    dotkniętymi szeroko rozumianą stratą, osobami neuroróżnorodnymi i nieheteronormatywnymi.
+    Ci, którzy trafiają do mnie, mogą czuć się bezpiecznie mówiąc o swoich uczuciach,
+    działaniach, dzielić się swoimi myślami.
+    Nawet jeśli są one dla nich trudne lub w danej chwili niezrozumiałe.
+    <br/>
+    <br/>
+    Wierzę, że nie ma uniwersalnych rozwiązań.
+    Ten sam problem dla dwóch różnych osób może stanowić inne wyzwanie.
+    W inny sposób też może być przez nie, tak samo skutecznie, rozwiązany.
+    Wierzę, że osoba, która przychodzi na psychoterapię potrafi dojść do tego, czego potrzebuje,
+    a największe zmiany dokonują się poza gabinetem."""
     buttonText = "Dalej"
 
   [params.about2]
     enable = true
     description = """<br/>
       Moje doświadczenie zawodowe:
+      <br/>
+      • Poukładane. Pracownia Psychologiczna
+      <br/>
+      • Pomorskie Centrum Terapeutyczne
+      <br/>
+      • Gdańskie Stowarzyszenie Epileptyków
+      <br/>
+      • Wojewódzki Szpital Psychiatryczny
+      <br/>
+      • Sopocki Ośrodek Specjalistyczny
       <br/>
       • Dom Hospicyjny im. św. Józefa w Sopocie
       <br/>
@@ -92,23 +110,18 @@ unsafe = true
   # skill section
   [params.skill_list]
     enable = true
-    title = "Metoda"
-    description = """Pracuję według założeń Terapii Skoncentrowanej na Rozwiązaniach.
-      Jednym z nich jest to, że każdy człowiek posiada zasoby, które pozwalają mu
-      rozwiązać nurtujące go zagadnienie.
-      To on, przychodząc do psychologa, ustala cel i sposób realizacji tego, co chce osiągnąć.
-      To on wie, jaka droga jest dla niego najlepsza.
+    title = "Jak zacząć?"
+    description = """Pierwsze spotkania mają charakter konsultacyjny —
+      to jest moment, żeby zebrać ogólny wywiad, porozmawiać o tym,
+      jak wygląda obecna sytuacja, co chciałoby się osiagnać, co jest możliwe
+      do osiągnięcia w procesie psychoterapii.
+      To jest też czas na zapoznanie się pacjenta i psychoterapeuty,
+      sprawdzenie na ile możliwe jest by poczuć się bezpiecznie i mówić otwarcie o sobie,
+      poznać styl pracy psychoterapeuty, zadać pytania.
       <br/>
       <br/>
-      Zadaniem terapeuty jest pomoc w tworzeniu celu i odnajdowaniu w człowieku zasobów,
-      które ułatwią mu jego realizację.
-      Terapeuta wspiera we wprowadzaniu w życie skutecznych rozwiązań.
-      <br/>
-      <br/>
-      Cechą charakterystyczną Terapii Skoncentrowanej na Rozwiązaniach jest krótkoterminowość.
-      W praktyce oznacza to, że sesje mają mieć charakter zwięzły,
-      a terapia ma sprowadzać się do najmniejszej możliwej liczby sesji,
-      potrzebnych aby osiągnąć zamierzony przez klienta cel."""
+      Po okresie konsultacyjnym (zwykle 1–4 spotkań),
+      kiedy zostaną omówione ramy spotkań, można rozpocząć psychoterapię."""
     buttonText = "Dalej"
     # the picture is storead at static/images/
     # picture = "pic02.jpg"
@@ -135,7 +148,7 @@ unsafe = true
     description = """Konsultacja psychologiczna 50 min<br/>(pierwsze spotkanie) • 180 zł
       <br/>
       <br/>
-      Spotkanie indywidualne 50 min<br/>(po konsultacji) • 150 zł"""
+      Spotkanie indywidualne 50 min<br/>(po konsultacji) • 180 zł"""
 
   # infos section
   [params.infos]
@@ -150,7 +163,7 @@ unsafe = true
       <br/>
       ul. Wassowskiego 6/1
       <br/>
-      80-225 Gdańsk
+      80–225 Gdańsk
       """
     email = "pracowniapoukladane@gmail.com"
     phone = "+48 603 132 616"
