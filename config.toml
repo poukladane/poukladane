@@ -145,10 +145,10 @@ unsafe = true
   [params.offer]
     enable = true
     title = "Cennik"
-    description = """Konsultacja psychologiczna 50 min<br/>(pierwsze spotkanie) • 180 zł
+    description = """Konsultacja psychologiczna 50 min<br/>(pierwsze spotkanie) • 200 zł
       <br/>
       <br/>
-      Spotkanie indywidualne 50 min<br/>(po konsultacji) • 180 zł"""
+      Spotkanie indywidualne 50 min<br/>(po konsultacji) • 200 zł"""
 
   # infos section
   [params.infos]
